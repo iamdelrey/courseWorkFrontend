@@ -1,0 +1,435 @@
+/*--------------------Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap");
+
+/*--------------------Colours */
+
+body {
+  background-color: #ffffff;
+  color: #232323;
+  text-align: center;
+}
+
+.page-section-color-bg {
+  background-color: #ffffff;
+}
+
+.navbar {
+  background-color: #5228f5;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-nav {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 2px;
+}
+
+/*-----------------------------------------Special paddings/ margins/ text */
+
+/*----- SPMT - General Text */
+h1,
+h2,
+h3,
+h4 h5 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/*----- SPMT - Sections */
+
+.row-section {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.page-section-plain-bg {
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*----- SPMT - Titles/ subheadings */
+
+.title {
+  font-family: "Josefin Sans", "Lato", sans-serif;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.small-title {
+  font-family: "Josefin Sans", "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.general-sub {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+/*----- SPMT - Body copy */
+
+.right-hand-text,
+.left-hand-text {
+  padding-top: 28px;
+}
+
+.set-width {
+  max-width: 400px;
+}
+
+.exhibition-text {
+  line-height: 2;
+}
+
+.visit-text {
+  padding: 16px 0 16px 0;
+}
+
+/*---- SPMT - Buttons */
+
+.one-button,
+.two-buttons {
+  padding-top: 12px;
+  padding-bottom: 28px;
+}
+
+.two-buttons a {
+  margin: 8px;
+}
+
+/*----- SMPT - Page heading & sub nav */
+
+.sub-page-header {
+  padding: 28px 0 16px 0;
+  font-size: xx-large;
+}
+
+/*------------------------------------------Header & Nav Bar */
+
+header {
+  margin: 0;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+
+.logo {
+  font-family: "Josefin Sans", "Lato", sans-serif;
+  font-weight: 600;
+  margin: 20px;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+#page-top {
+  padding-top: 4px;
+}
+
+header hr {
+  margin: 0px;
+}
+
+.jumbotron {
+  height: 40vh;
+  background: url("../images/row-gallery-jumbotron-image-mobile.jpg") no-repeat
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+
+  padding-bottom: 0px;
+  padding-left: 0px;
+
+  position: relative;
+}
+
+.wave-background {
+  width: 100%;
+  z-index: 1;
+  margin-bottom: -1px;
+}
+
+.lead-hero {
+  text-align: center;
+  padding: 16px 32px 28px 32px;
+}
+
+/* Nav Bar Transitions */
+/* Hover classes originally sourced from Stack Overflow article (see more in READ.ME) */
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(35, 35, 35, 0.75);
+}
+
+.nav-link {
+  padding: 0.2rem 1rem;
+  margin: 0.3rem;
+  border-bottom: 1px solid transparent;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.nav-link:hover {
+  border-color: rgba(35, 35, 35, 0.5);
+}
+
+.active .nav-link {
+  border-bottom: 1px solid transparent;
+  color: rgba(35, 35, 35, 0.9);
+  border-color: rgba(35, 35, 35, 0.5);
+}
+
+/* ------------------------------------- Page Header & Page Nav Transitions */
+/* Hover classes originally sourced from Stack Overflow article (see more in READ.ME) */
+
+.page-nav-item a {
+  text-decoration: none;
+  color: #232323;
+}
+
+.page-nav-item {
+  margin-left: 28px;
+  margin-right: 28px;
+  border-bottom: 1px solid transparent;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.page-nav-item:hover {
+  border-color: rgba(35, 35, 35, 0.5);
+}
+
+/*---------------------------------------- Buttons */
+/* Button classes sourced from Bootstrap documentation */
+
+.btn-outline-light i,
+.btn-outline-dark i {
+  font-size: 12px;
+  padding: 0 4px 0 4px;
+}
+
+.btn-outline-light,
+.btn-outline-dark {
+  border-color: #232323;
+  color: #232323;
+}
+
+.btn-outline-dark:hover {
+  color: #faebd7;
+  background-color: #232323;
+}
+
+.btn-outline-light:hover {
+  background-color: #faebd7;
+}
+
+/*------------------------------- Form & Back To Top Buttons */
+/* Button classes sourced from Bootstrap documentation */
+
+.btn-third {
+  width: 30%;
+}
+
+.btn-dark {
+  color: #ffffff;
+  background-color: #232323;
+}
+
+.btn-dark:hover {
+  color: #232323;
+  background-color: #faebd7;
+  border-color: #faebd7;
+}
+
+.btn-light {
+  color: #faebd7;
+  background-color: #232323;
+  border-color: #232323;
+}
+
+.btn-light:hover {
+  color: #232323;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* ---------------------------------------- Images */
+
+.large-image {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.large-image .caption {
+  padding-top: 16px;
+}
+
+.large-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.small-image img {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.artist-portrait img {
+  padding-bottom: 28px;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* ---------------------------------------- Video */
+
+video {
+  width: 100%;
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+  background-color: #ccbeaa;
+  color: #232323;
+  min-height: 120px;
+  margin: 0;
+}
+
+.contact-details p a {
+  color: #232323;
+  text-decoration: none;
+}
+
+/* class name and css originally from CV CI project */
+#footer-details {
+  padding: 32px 16px 16px 16px;
+}
+
+/* class name and css originally from CV CI project */
+.social-links li a i {
+  font-size: 32px;
+  text-align: center;
+  color: #232323;
+  margin: 0;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  color: #635422;
+}
+
+footer hr {
+  margin: 0px;
+}
+
+.copyright {
+  padding-top: 16px;
+  padding-bottom: 28px;
+}
+
+/* ----------------------------------------Map */
+
+/* class name and css originally from coders coffee house project */
+#map-wrapper {
+  height: 410px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+/* ----------------------------------------Media Queries */
+
+/* ------- MQ - Jumbatron image */
+
+@media (min-width: 992px) {
+  .jumbotron {
+    background: url("../images/row-gallery-jumbotron-image-desktop.jpg")
+      no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/* ------- MQ - Map Size */
+
+@media (min-width: 768px) {
+  #map-wrapper {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #map-wrapper {
+    height: 410px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .lead-hero h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead-hero h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .homepage-section-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .homepage-section-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage-section-text {
+    font-size: 18px;
+  }
+}
