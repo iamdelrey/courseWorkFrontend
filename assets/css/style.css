@@ -138,7 +138,7 @@ h4 h5 {
 .one-button,
 .two-buttons {
   padding-top: 12px;
-  padding-bottom: 28px;
+  padding-bottom: 16px;
 }
 
 .two-buttons a {
@@ -295,8 +295,8 @@ header hr {
 }
 
 .btn-dark:hover {
-  color: #232323;
-  background-color: #faebd7;
+  color: #ffffff;
+  background-color: #844639;
   border-color: #faebd7;
 }
 
@@ -351,6 +351,11 @@ header hr {
 
 video {
   width: 100%;
+  border-radius: 5px;
+}
+
+body section #artist-two video {
+  border-radius: 50px;
 }
 
 /* ----------------------------------------Footer */
@@ -393,8 +398,11 @@ footer hr {
 }
 
 .copyright {
-  padding-top: 16px;
-  padding-bottom: 28px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  font-size: 12px;
 }
 
 /* ----------------------------------------Map */
