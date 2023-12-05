@@ -16,7 +16,7 @@ body {
 }
 
 body section .page1-section-plain-bg {
-  background-color: #c2a585;
+  background-color: #ffffff;
 }
 
 .page-section-color-bg {
@@ -87,6 +87,7 @@ h4 h5 {
 .row-section {
   padding-top: 28px;
   padding-bottom: 28px;
+  margin-top: 30px;
 }
 
 .page-section-plain-bg {
