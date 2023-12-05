@@ -1,0 +1,564 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Dela+Gothic+One&family=Jost:wght@100;200;300;600&family=Marmelad&family=Roboto:wght@100&display=swap");
+
+/* *font-family: 'Andika', sans-serif;
+font-family: 'Dela Gothic One', sans-serif;
+font-family: 'Jost', sans-serif;
+*font-family: 'Marmelad', sans-serif; */
+
+/*--------------------Colours */
+
+body {
+  background-color: #a3755f;
+  color: #232323;
+  text-align: center;
+}
+
+body section .page1-section-plain-bg {
+  background-color: #c2a585;
+}
+
+.page-section-color-bg {
+  background-color: #ffffff;
+}
+
+.navbar {
+  /* background-color: #264653; */
+  background-color: #844639;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-nav {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 2px;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.page-section-plain-bg1 {
+  background-color: #ffffff;
+}
+
+.lead-hero {
+  background-color: #844639;
+}
+
+.lead-hero .title {
+  color: #ffffff;
+}
+
+.lead-hero .lead {
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #846039;
+  color: #ffffff;
+}
+/*-----------------------------------------Special paddings/ margins/ text */
+
+h1,
+h2,
+h3,
+h4 h5 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.row-section {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.page-section-plain-bg {
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*----- SPMT - Titles/ subheadings */
+
+.title {
+  font-family: "Andika", sans-serif;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.small-title {
+  font-family: "Josefin Sans", "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.general-sub {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.lead-hero .lead {
+  font-family: "Jost", sans-serif;
+  font-weight: 200;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/*----- SMPT - Page heading & sub nav */
+
+.sub-page-header {
+  padding: 28px 0 16px 0;
+  font-size: xx-large;
+}
+
+/*------------------------------------------Header & Nav Bar */
+
+header {
+  margin: 0;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+
+.logo {
+  font-family: "Josefin Sans", "Lato", sans-serif;
+  font-weight: 600;
+  margin: 20px;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+#page-top {
+  padding-top: 4px;
+}
+
+header hr {
+  margin: 0px;
+}
+
+.jumbotron {
+  height: 20vh;
+  background: url("/assets/images/row-gallery-jumbotron-image-mobile.jpg")
+    no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  position: relative;
+  margin: 0px;
+}
+
+.wave-background {
+  width: 100%;
+  z-index: 1;
+  margin-bottom: -1px;
+}
+
+.lead-hero {
+  text-align: center;
+  padding: 16px 32px 28px 32px;
+  width: 100%;
+  margin: 0px;
+  max-width: 100%;
+}
+
+/* Nav Bar Transitions */
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(35, 35, 35, 0.75);
+}
+
+.nav-link {
+  padding: 0.2rem 1rem;
+  margin: 0.3rem;
+  border-bottom: 1px solid transparent;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.nav-link:hover {
+  border-color: rgba(132, 96, 57, 0.5);
+}
+
+.active .nav-link {
+  border-bottom: 1px solid transparent;
+  color: rgba(35, 35, 35, 0.9);
+  border-color: rgba(35, 35, 35, 0.5);
+}
+
+/* ------------------------------------- Page Header & Page Nav Transitions */
+
+.page-nav-item a {
+  text-decoration: none;
+  color: #232323;
+}
+
+.page-nav-item {
+  margin-left: 28px;
+  margin-right: 28px;
+  border-bottom: 1px solid transparent;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.page-nav-item:hover {
+  border-color: rgba(35, 35, 35, 0.5);
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+  background-color: #ffffff;
+  color: #232323;
+  min-height: 120px;
+  margin-top: 30px;
+}
+
+.contact-details p a {
+  color: #232323;
+  text-decoration: none;
+}
+
+/* class name and css originally from CV CI project */
+#footer-details {
+  padding: 32px 16px 16px 16px;
+}
+
+/* class name and css originally from CV CI project */
+.social-links li a i {
+  font-size: 32px;
+  text-align: center;
+  color: #232323;
+  margin: 0;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  color: #635422;
+}
+
+footer hr {
+  margin: 0px;
+}
+
+.copyright {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+/* ----------------------------------------Media Queries */
+
+/* ------- MQ - Jumbatron image */
+
+@media (min-width: 992px) {
+  .jumbotron {
+    background: url("/assets/images/row-gallery-jumbotron-image-desktop.jpg")
+      no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/* ------- MQ - Map Size */
+
+@media (min-width: 768px) {
+  #map-wrapper {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #map-wrapper {
+    height: 410px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .lead-hero h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead-hero h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .homepage-section-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .homepage-section-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage-section-text {
+    font-size: 18px;
+  }
+}
+
+.catalog-container {
+  width: 900px;
+  margin: auto;
+  max-width: 90vw;
+  text-align: center;
+  padding-top: 10px;
+  transition: transform 0.5s;
+}
+svg {
+  width: 25px;
+  color: #fff;
+}
+
+.icon-cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px;
+}
+.icon-cart span {
+  position: absolute;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  top: 50%;
+  right: -18px;
+  font-size: 14px;
+  z-index: 1;
+}
+
+.listProduct .item img {
+  width: 90%;
+  filter: drop-shadow(0 50px 20px #0009);
+}
+.listProduct {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 35px;
+}
+.listProduct .item {
+  background-color: #eeeee6;
+  padding: 20px;
+  border-radius: 20px;
+}
+.listProduct .item h2 {
+  font-weight: 500;
+  font-size: large;
+}
+.listProduct .item .price {
+  letter-spacing: 7px;
+  font-size: small;
+}
+.listProduct .item button {
+  background-color: #353432;
+  color: #eee;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.cartTab {
+  width: 400px;
+  background-color: #353432;
+  color: #eee;
+  position: fixed;
+  top: 0;
+  right: -400px;
+  bottom: 0;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  transition: 0.5s;
+}
+body.showCart .cartTab {
+  right: 0;
+}
+body.showCart .container {
+  transform: translateX(-250px);
+}
+.cartTab h1 {
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+}
+.cartTab .btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cartTab button {
+  background-color: #e8bc0e;
+  border: none;
+  font-family: Poppins;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cartTab .close {
+  background-color: #eee;
+}
+.listCart .item img {
+  width: 100%;
+}
+.listCart .item {
+  display: grid;
+  grid-template-columns: 70px 150px 50px 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+.listCart .quantity span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  color: #555;
+  cursor: pointer;
+}
+.listCart .quantity span:nth-child(2) {
+  background-color: transparent;
+  color: #eee;
+  cursor: auto;
+}
+.listCart .item:nth-child(even) {
+  background-color: #eee1;
+}
+.listCart {
+  overflow: auto;
+}
+.listCart::-webkit-scrollbar {
+  width: 0;
+}
+
+#body-catalog {
+  background-color: #ffffff;
+}
+
+@media (max-width: 992px) {
+  .listProduct {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .icon-cart {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .listProduct {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .navbar-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar-toggler {
+    order: -1;
+  }
+
+  .icon-cart {
+    order: 1;
+  }
+  .navbar-nav {
+    width: 540px;
+  }
+}
+
+@media (max-width: 580px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 3px;
+  }
+}
+
+@media (max-width: 467px) {
+  .listProduct {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler {
+    order: 1;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  .icon-cart {
+    order: 3;
+  }
+
+  .navbar-collapse {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease, opacity 0.3s ease; /* Анимация высоты и прозрачности */
+    opacity: 0;
+  }
+
+  .navbar-collapse.show {
+    height: auto;
+    opacity: 1;
+  }
+
+  .navbar-collapse .icon-cart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
