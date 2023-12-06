@@ -22,8 +22,8 @@ const addDataToHTML = () => {
       newProduct.classList.add("item");
       newProduct.innerHTML = `<img src="${product.image}" alt="">
                 <h2>${product.name}</h2>
-                <div class="price">$${product.price}</div>
-                <button class="addCart">Add To Cart</button>`;
+                <div class="price">${product.price} ₽</div>
+                <button class="addCart">В корзину</button>`;
       listProductHTML.appendChild(newProduct);
     });
   }
@@ -61,12 +61,26 @@ const addToCart = (product_id) => {
 const addCartToMemory = () => {
   localStorage.setItem("cart", JSON.stringify(cart));
 };
+const calculateTotalSum = () => {
+  let totalSum = 0;
+  cart.forEach((item) => {
+    let positionProduct = products.findIndex(
+      (value) => value.id == item.product_id
+    );
+    let info = products[positionProduct];
+    totalSum += info.price * item.quantity;
+  });
+  return totalSum;
+};
+
 const addCartToHTML = () => {
   listCartHTML.innerHTML = "";
   let totalQuantity = 0;
+  let totalSum = 0;
+
   if (cart.length > 0) {
     cart.forEach((item) => {
-      totalQuantity = totalQuantity + item.quantity;
+      totalQuantity += item.quantity;
       let newItem = document.createElement("div");
       newItem.classList.add("item");
       newItem.dataset.id = item.product_id;
@@ -77,21 +91,29 @@ const addCartToHTML = () => {
       let info = products[positionProduct];
       listCartHTML.appendChild(newItem);
       newItem.innerHTML = `
-            <div class="image">
-                    <img src="${info.image}">
-                </div>
-                <div class="name">
-                ${info.name}
-                </div>
-                <div class="totalPrice">$${info.price * item.quantity}</div>
-                <div class="quantity">
-                    <span class="minus"><</span>
-                    <span>${item.quantity}</span>
-                    <span class="plus">></span>
-                </div>
-            `;
+        <div class="image">
+          <img src="${info.image}">
+        </div>
+        <div class="name">
+          ${info.name}
+        </div>
+        <div class="totalPrice">${info.price * item.quantity} ₽</div>
+        <div class="quantity">
+          <span class="minus">&#8592;</span>
+          <span>${item.quantity}</span>
+          <span class="plus">&#8594;</span>
+        </div>
+      `;
     });
+
+    totalSum = calculateTotalSum();
   }
+
+  let totalSumElement = document.createElement("div");
+  totalSumElement.classList.add("totalSum");
+  totalSumElement.innerHTML = `Итого: ${totalSum} ₽`;
+  listCartHTML.appendChild(totalSumElement);
+
   iconCartSpan.innerText = totalQuantity;
 };
 

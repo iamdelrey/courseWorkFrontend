@@ -1,50 +1,74 @@
 [
     {
         "id": 1,
-        "name":" LD01 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/1.png"
+        "name":" Кучевой пейзаж долины",
+        "price": 4999,
+        "image": "assets/images/catalog_img1.jpg"
     },
     {
         "id": 2,
-        "name":" LD02 LOUNGE CHAIR",
-        "price": 250,
-        "image": "image/2.png"
+        "name":" У просторных берегов Волги",
+        "price": 82340,
+        "image": "assets/images/catalog_img2.jpg"
     },
     {
         "id": 3,
-        "name":" LD03 LOUNGE CHAIR",
-        "price": 290,
-        "image": "image/3.png"
+        "name":" Корнуоллский пейзаж",
+        "price": 3399,
+        "image": "assets/images/catalog_img3.jpg"
     },
     {
         "id": 4,
-        "name":" LD04 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/4.png"
+        "name":" У подножия Эльбруса",
+        "price": 27090,
+        "image": "assets/images/catalog_img4.jpg"
     },
     {
         "id": 5,
-        "name":" LD05 LOUNGE CHAIR",
-        "price": 300,
-        "image": "image/5.png"
+        "name":" Геометрическая абстрактная живопись",
+        "price": 9150,
+        "image": "assets/images/catalog_img5.jpg"
     },
     {
         "id": 6,
-        "name":" LD06 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/6.png"
+        "name":" Акриловая абстрактная живопись",
+        "price": 6050,
+        "image": "assets/images/catalog_img6.jpg"
     },
     {
         "id": 7,
-        "name":" LD07 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/7.png"
+        "name":" Последний танец двух душ в объятиях губ",
+        "price": 7650,
+        "image": "assets/images/catalog_img7.jpg"
     },
     {
         "id": 8,
-        "name":" LD08 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/8.png"
+        "name":" Энергия цветов в вихре абстракции",
+        "price": 4500,
+        "image": "assets/images/catalog_img8.jpg"
+    },
+    {
+        "id": 9,
+        "name":" Симфония кои: красота в цвете",
+        "price": 190575,
+        "image": "assets/images/catalog_img9.jpg"
+    },
+    {
+        "id": 10,
+        "name":" Лазурные фигуры",
+        "price": 12500,
+        "image": "assets/images/catalog_img10.jpg"
+    },
+    {
+        "id": 11,
+        "name":" По ту сторону форм",
+        "price": 23793,
+        "image": "assets/images/catalog_img11.jpg"
+    },
+    {
+        "id": 12,
+        "name":" Гондолы на водах Венеции",
+        "price": 320390,
+        "image": "assets/images/catalog_img12.jpg"
     }
 ]

@@ -239,7 +239,7 @@
                   </p>
                   <div class="two-buttons text-sm-left">
                     <a
-                      class="btn btn-outline-dark"
+                      class="btn btn1-outline-dark"
                       href="https://www.instagram.com/"
                       rel="noopener"
                       target="_blank"
@@ -248,7 +248,7 @@
                       <i class="fa-solid fa-angle-right"></i
                     ></a>
                     <a
-                      class="btn btn-outline-dark"
+                      class="btn btn1-outline-dark"
                       href="contact.html"
                       role="button"
                       >Подробнее <i class="fa-solid fa-angle-right"></i
@@ -266,7 +266,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 one-button">
-            <a class="btn btn-dark" href="#page-top" role="button"
+            <a class="btn btn-light" href="#page-top" role="button"
               >Вернуться к началу <i class="fa-solid fa-angle-up"></i
             ></a>
           </div>
@@ -334,24 +334,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var artistTwoSection = document.getElementById("artist-two");
-
-        function handleScroll() {
-          var rect = artistTwoSection.getBoundingClientRect();
-          var isVisible =
-            rect.top <= window.innerHeight / 2 && rect.bottom >= 0;
-
-          if (isVisible) {
-            artistTwoSection.classList.add("visible");
-            window.removeEventListener("scroll", handleScroll);
-          }
-        }
-
-        window.addEventListener("scroll", handleScroll);
-        handleScroll(); // Вызываем один раз, чтобы проверить видимость при загрузке страницы
-      });
-    </script>
+    <script src="sc"></script>
   </body>
 </html>
