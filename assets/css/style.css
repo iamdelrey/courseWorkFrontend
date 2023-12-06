@@ -205,7 +205,7 @@ header hr {
 
 .jumbotron {
   height: 20vh;
-  background: url("assets/images/row-gallery-jumbotron-image-mobile.jpg")
+  background: url("/assets/images/row-gallery-jumbotron-image-mobile.jpg")
     no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -459,7 +459,7 @@ footer hr {
 
 @media (min-width: 992px) {
   .jumbotron {
-    background: url("assets/images/row-gallery-jumbotron-image-desktop.jpg")
+    background: url("/assets/images/row-gallery-jumbotron-image-desktop.jpg")
       no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
