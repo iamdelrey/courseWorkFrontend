@@ -410,7 +410,7 @@ body.showCart .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 20px;
+  padding: 0 20px;
   background-color: #a3755f;
   position: sticky;
   top: 0;
@@ -428,7 +428,7 @@ body.showCart .container {
   margin: 0;
   text-align: center;
   flex-grow: 1;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .icon-cart {
